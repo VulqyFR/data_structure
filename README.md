@@ -1,6 +1,6 @@
 # 🌳 Data Structures Exploration Project
 
-## Overview
+## 👀 Overview
 
 A comprehensive implementation of tree data structures in C, featuring various tree types and their algorithms. The project emphasizes clean code, efficient implementations, and practical example
 
@@ -20,19 +20,17 @@ A comprehensive implementation of tree data structures in C, featuring various t
 
 ### Coming soon:
 
-⏳ AVL Tree
-⏳ Red-Black Tree
-⏳ B-Tree
-⏳ B+ Tree
-⏳ Heap Tree
-⏳ Trie
-⏳ Segment Tree
-⏳ Fenwick Tree
-⏳ N-ary Tree
-⏳ K-D Tree
-⏳ Suffix Tree
-
----
+-   ⏳ AVL Tree
+-   ⏳ Red-Black Tree
+-   ⏳ B-Tree
+-   ⏳ B+ Tree
+-   ⏳ Heap Tree
+-   ⏳ Trie
+-   ⏳ Segment Tree
+-   ⏳ Fenwick Tree
+-   ⏳ N-ary Tree
+-   ⏳ K-D Tree
+-   ⏳ Suffix Tree
 
 ## 🔧 Building the Project
 
@@ -40,8 +38,6 @@ A comprehensive implementation of tree data structures in C, featuring various t
 
 -   GCC compiler
 -   Windows OS (for .bat script I'll implement a sh script soon)
-
----
 
 ## 📁 Directory Structure
 
