@@ -4,8 +4,6 @@
 
 A comprehensive implementation of tree data structures in C, featuring various tree types and their algorithms. The project emphasizes clean code, efficient implementations, and practical example
 
----
-
 ## 📋 Features
 
 ### Currently implemented:
