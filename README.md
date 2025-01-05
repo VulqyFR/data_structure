@@ -15,6 +15,8 @@ A comprehensive implementation of tree data structures in C, featuring various t
         -   Preorder
         -   Postorder
     -   Reverse Level Order
+-   ✅ N-ary Tree
+    -   Level order traversal
 
 ### Coming soon:
 
@@ -26,7 +28,6 @@ A comprehensive implementation of tree data structures in C, featuring various t
 -   ⏳ Trie
 -   ⏳ Segment Tree
 -   ⏳ Fenwick Tree
--   ⏳ N-ary Tree
 -   ⏳ K-D Tree
 -   ⏳ Suffix Tree
 
@@ -54,7 +55,11 @@ tree_exploration/
 │   │   ├── preorder.c
 │   │   ├── postorder.c
 │   │   └── reverse_level_order.c
-│   └── main.c
+├── n_ary_tree/
+│   ├── include/
+│   │   └── nary_tree.h
+│   ├── src/
+|   |   └── nary_tree.c
 ├── avl_tree/
 ├── red_black_tree/
 ├── b_tree/
@@ -64,7 +69,6 @@ tree_exploration/
 ├── segment_tree/
 ├── fenwick_tree/
 ├── general_tree/
-├── n_ary_tree/
 ├── kd_tree/
 ├── suffix_tree/
 └── main.c
@@ -85,7 +89,7 @@ tree_exploration/
 1. Start the `compile.bat` script in the project root with the following content:
 
     ```
-    ./compilet.bat
+    ./compile.bat
     ```
 
 2. The executable file `tree_exploration` will be created in the project root.
