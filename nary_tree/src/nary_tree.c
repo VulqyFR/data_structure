@@ -38,7 +38,8 @@ void levelOrderNary(NaryNode *root)
     if (root == NULL)
         return;
 
-    NaryNode **queue = (NaryNode **)malloc(1000 * sizeof(NaryNode *));
+    int queueSize = 8;
+    NaryNode **queue = (NaryNode **)malloc(queueSize * sizeof(NaryNode *));
     int front = 0, rear = 0;
 
     queue[rear++] = root;
@@ -47,6 +48,17 @@ void levelOrderNary(NaryNode *root)
     {
         NaryNode *current = queue[front++];
         printf("%d ", current->data);
+
+        if (rear + current->childCount >= queueSize)
+        {
+            queueSize *= 2;
+            queue = (NaryNode **)realloc(queue, queueSize * sizeof(NaryNode *));
+            if (queue == NULL)
+            {
+                printf("Memory reallocation failed\n");
+                return;
+            }
+        }
 
         for (int i = 0; i < current->childCount; i++)
             queue[rear++] = current->children[i];
